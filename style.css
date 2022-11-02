@@ -1,0 +1,49 @@
+body{
+    padding: 0px;
+    margin: opx;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr, ;
+    grid-template-rows: 2fr, 1fr, 1fr, ;
+    height: 100vh;  
+    gap: 20px;
+
+}
+.project-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+header{
+    background-color:#6E6E6E;
+    border: 100%;
+    text-align: center;
+    margin: 0px;
+    
+    color: white;
+    font-family: Arial, sans-serif ; 
+}
+.project{
+    border : 2px solid  black;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.project:hover{
+    background-color: #6E6E6E;
+}
+footer{
+    background-color: #6E6E6E;
+
+   
+}
+
+
+ @media  screen and (min-width: 1024px) {
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+ }

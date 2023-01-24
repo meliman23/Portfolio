@@ -102,10 +102,15 @@ button:focus{
     text-align: center;
     justify-content: center;
     align-items: center;
+ 
+    flex-direction: column;
+    
+
     
     
 }
 .exp h1{
+    font-size: 14px;
     color:#ff5500 ;
     margin: 20px;
     background-color: beige;
@@ -122,7 +127,7 @@ button:focus{
     text-align: center;
     justify-content: center;
     align-items: center;
-
+flex-direction: column;
 }
 
 a{
@@ -131,6 +136,7 @@ a{
    margin: 20px;
    background-color: antiquewhite;
    border-radius: 10px;
+   padding: 10px;
 }
 a h1:hover{
 color: rgb(112, 226, 255);
@@ -138,6 +144,22 @@ color: rgb(112, 226, 255);
    scale: 1.2;
 
 }
+.exp> h1{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
 p{
     font-size: 20px;
+    margin: 10px;
 }
+
+
+@media screen and (max-width:480px) {
+    /*CSS code for devices with a maximal width of 720 px */
+    h1{
+        color: red;
+    }
+
+    }
+    
